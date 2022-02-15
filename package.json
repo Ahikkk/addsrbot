@@ -29,7 +29,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ridho03/waridhobot.git"
+    "url": "git+https://github.com/Ahikkk/addsrbot"
   },
   "keywords": [
     "k"
@@ -37,7 +37,7 @@
   "author": "ridho setiawan",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/ridho03/waridhobot/issues"
+    "url": "https://github.com/ahikk/addsrbot/issues"
   },
-  "homepage": "https://github.com/ridho03/waridhobot#readme"
+  "homepage": "https://github.com/ahikkk/addsrbot#readme"
 }
