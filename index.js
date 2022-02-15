@@ -13,12 +13,12 @@ const donate = require("./lib/donate.js");
 const info = require("./lib/info.js");
 				  
 //
-const BotName = 'RIDHO BOT 🤖'; // Nama Bot Whatsapp
-const instagramlu = 'https://instagram.com/ridho_setiawan02'; // Nama Instagramlu cok
-const whatsapplu = '0812-8909-6745'; // Nomor whatsapplu cok
+const BotName = 'ADDSR BOT 🤖'; // Nama Bot Whatsapp
+const instagramlu = 'https://instagram.com/ilhamayam.10'; // Nama Instagramlu cok
+const whatsapplu = '0812-7618-8297'; // Nomor whatsapplu cok
 const kapanbotaktif = '24 Jam'; // Kapan bot lu aktif
-const grupch1 = 'https://chat.whatsapp.com/LX1nAiZUuB5FmTCMwe0o4g'; // OFFICIAL GRUP LU 1
-const grupch2 = 'https://chat.whatsapp.com/Kjv5IWzNIeCBSaH4lJKX8v'; // OFFICIAL GRUP LU 2
+const grupch1 = 'https://chat.whatsapp.com/JLJXwtmLpxX4rRChC6ztRt'; // OFFICIAL GRUP LU 1
+const grupch2 = 'https://chat.whatsapp.com/JLJXwtmLpxX4rRChC6ztRt'; // OFFICIAL GRUP LU 2
 //
 const
 {
@@ -49,7 +49,7 @@ conn.on('qr', qr =>
    {
       small: true
    });
-   console.log(`[ ${moment().format("HH:mm:ss")} ] ridho Ready scan now!`);
+   console.log(`[ ${moment().format("HH:mm:ss")} ] addsrbot Ready scan now!`);
 });
 
 conn.on('credentials-updated', () =>
@@ -64,11 +64,11 @@ fs.existsSync('./session.json') && conn.loadAuthInfo('./session.json')
 //conn.connectOptions.agent = ProxyAgent ('http://1.0.180.120:8080')
 conn.connect();
 
-conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @ridho_setiawan02`))
+conn.on('user-presence-update', json => console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @ilham`))
 conn.on('message-status-update', json =>
 {
    const participant = json.participant ? ' (' + json.participant + ')' : '' // participant exists when the message is from a group
-   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @ridho_setiawan02`)
+   console.log(`[ ${moment().format("HH:mm:ss")} ] => bot by @ilham`)
 })
 
 conn.on('message-new', async(m) =>
@@ -924,6 +924,6 @@ if (text.includes(".alay")){
 	})
 }
 
-//Tolonglah bro jangan di ubah ubah RIDHO SETIAWAN
+//Tolonglah bro jangan di ubah ubah addsr bot
 
 })
