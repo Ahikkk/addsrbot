@@ -17,6 +17,10 @@ Sebelum lu jalanin sc nya install dulu lah.
 ```bash
 > kalo lu belum punya apk termux, download di playstore
 > masuk ke apk termux lalu ketik dibawah ini!
+> pkg install git
+> pkg install ffmpeg
+> pkg install nodejs
+> apt update && apt upgrade
 > git clone https://github.com/Ahikkk/addsrbot
 > cd addsrbot
 > bash install.sh
@@ -26,7 +30,7 @@ Sebelum lu jalanin sc nya install dulu lah.
 
 ## Features
 
-| RIDHO BOT       |                Feature           |
+| ADDSR BOT       |                Feature           |
 | :-----------: | :--------------------------------: |
 |       ✅       | Sticker Creator                  |
 |       ✅       | Magernulis                       |
