@@ -18,7 +18,7 @@ Sebelum lu jalanin sc nya install dulu lah.
 > kalo lu belum punya apk termux, download di playstore
 > masuk ke apk termux lalu ketik dibawah ini!
 > git clone https://github.com/Ahikkk/addsrbot
-> cd adsrbot
+> cd addsrbot
 > bash install.sh
 > node index.js
 > Tinggal scan qr dah
@@ -45,10 +45,5 @@ Sebelum lu jalanin sc nya install dulu lah.
 |       ✅       | Info                             |
 |       ✅       | Donate                           |
 
-## Special Thanks to
-* [`termux-whatsapp-bot`](https://github.com/fdciabdul/termux-whatsapp-bot)
-[`ST4RZ`](https://github.com/Bintang73)
-[`ARIS187 ID`](https://github.com/A187ID)
-
 ### Donate
-* DANA/PULSA  081289096745
+* DANA/PULSA  081276188297
